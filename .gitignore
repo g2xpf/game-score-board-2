@@ -24,3 +24,5 @@ yarn-error.log*
 
 # electron output
 /dist
+
+.env

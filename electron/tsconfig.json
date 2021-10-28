@@ -8,8 +8,7 @@
     "noFallthroughCasesInSwitch": true,
     "inlineSources": true,
     "inlineSourceMap": true,
-    "outDir": "../build/electron",
-    "typeRoots": ["node_modules/@types"]
+    "outDir": "../build/electron"
   },
-  "include": ["./*.ts"]
+  "include": ["./*.ts", "../src/@types/**/*"]
 }
